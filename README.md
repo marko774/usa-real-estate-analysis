@@ -1,6 +1,3 @@
-# usa-real-estate-analysis
-End-to-end real estate data pipeline and Power BI dashboard (Python, PostgreSQL, Power BI).
-
 # 📊 USA Real Estate Analytics Dashboard
 
 An end-to-end data analytics project processing real estate transaction data from raw CSV to an interactive Power BI dashboard via PostgreSQL.
