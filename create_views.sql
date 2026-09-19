@@ -1,4 +1,4 @@
--- POGLED 1: Analiza cijena i ponude po gradovima i državama
+-- Analiza cijena i ponude po gradovima i državama
 CREATE OR REPLACE VIEW view_city_summary AS
 SELECT 
     state,
@@ -12,7 +12,7 @@ GROUP BY state, city
 HAVING COUNT(*) >= 10
 ORDER BY avg_price DESC;
 
--- POGLED 2: Analiza utjecaja broja soba na prosječnu cijenu
+-- Analiza utjecaja broja soba na prosječnu cijenu
 CREATE OR REPLACE VIEW view_bedroom_summary AS
 SELECT 
     bed AS bedrooms,
